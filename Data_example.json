@@ -1,0 +1,60 @@
+auth_msg 
+{ 
+"msg_id": 124, 
+"publish_ts": "2024-10-12T14:00:00", 
+"type": "auth_event", 
+"payload": { 
+"uid": 453135, 
+"email": "SomeEmail@test.com", 
+"phone": null, 
+"app": "app_3"} 
+} 
+{ 
+"msg_id": 125, 
+"publish_ts": "2024-10-12T15:00:00", 
+"type": "auth_event", 
+"payload": { 
+"uid": "some_uid_3", 
+"email": null, 
+"phone": +19023456789, 
+"app": "app_5"} 
+} 
+
+spins_msg 
+{ 
+"msg_id": 1275, 
+"publish_ts": "2024-10-12T14:02:00", 
+"type": "spin_event", 
+"payload": { 
+"uid": 125331, 
+"spin": 1400, 
+"app": "app_3"} 
+} 
+{ 
+"msg_id": 1551, 
+"publish_ts": "2024-10-12T15:08:00", 
+"type": "spin_event", 
+"payload": { 
+"uid": "some_uid_3", 
+"spin": 900, 
+"app": "app_5"} 
+} 
+purchase_msg 
+{ 
+"msg_id": 2112, 
+"publish_ts": "2024-10-12T17:09:00", 
+"type": "purchase_event", 
+"payload": { 
+"uid": 124442, 
+"amount": 1499, 
+"app": "app_3"} 
+} 
+{ 
+"msg_id": 2117, 
+"publish_ts": "2024-10-12T17:19:00", 
+"type": "purchase_event", 
+"payload": { 
+"uid": "some_uid_3", 
+"amount": 1799, 
+"app": "app_5"} 
+} 
